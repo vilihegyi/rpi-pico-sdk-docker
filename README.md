@@ -17,9 +17,9 @@ docker run -d -it --name pico-sdk --mount type=bind,source=${PWD}/test_project,t
 
 # Set up Visual Studio Code
 
-Open Visual Studio Code, install the given extensions from `.vscode/extensions.json`. Once done, click on the bottom left corner and select the `Open Folder in Container...` option.
+Open Visual Studio Code, install the given extensions from `.vscode/extensions.json`. Once done, click on `Open Folder in Container...` option when the window opens up.
 
-This opens up the application inside the container.
+This opens up the application inside the container and you can be ready to build.
 
 # Compile the sample application
 In the Visual studio command run the following:

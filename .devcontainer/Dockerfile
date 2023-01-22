@@ -28,6 +28,6 @@ RUN git clone --depth 1 --branch 1.1.0 https://github.com/raspberrypi/picotool.g
     mkdir build && \
     cd build && \
     cmake .. && \
-    make && \
+    make -j$(nproc) && \
     cp /home/picotool/build/picotool /bin/picotool && \
     rm -rf /home/picotool
